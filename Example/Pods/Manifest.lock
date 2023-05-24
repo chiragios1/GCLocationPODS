@@ -1,0 +1,16 @@
+PODS:
+  - GCLocationPODS (0.1.0)
+
+DEPENDENCIES:
+  - GCLocationPODS (from `../`)
+
+EXTERNAL SOURCES:
+  GCLocationPODS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCLocationPODS: 209be44d41104b134e3389b5644cd95060e5deac
+
+PODFILE CHECKSUM: 0f0b116d5ba71e7a02fd36a65222449510abb3a8
+
+COCOAPODS: 1.11.3
