@@ -13,6 +13,12 @@
 		63F69754E54D18213C9AD7FFBDA52CEA /* Pods-GCLocationPODS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F43CA1D8F4FF7A49F615B124CF3BCCE8 /* Pods-GCLocationPODS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F1CBC0DC1B6A26188A54FFB40BF899C /* Pods-GCLocationPODS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A08B122EC13DF747E9DF5817F1C5F51B /* Pods-GCLocationPODS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7996AFC268300CA473C004EB2B2095DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		84404DCF2A20AD66004C9751 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84404DC92A20AD66004C9751 /* CoreDataStack.swift */; };
+		84404DD02A20AD66004C9751 /* GCLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84404DCA2A20AD66004C9751 /* GCLocation.swift */; };
+		84404DD12A20AD66004C9751 /* Geohash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84404DCB2A20AD66004C9751 /* Geohash.swift */; };
+		84404DD22A20AD66004C9751 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84404DCC2A20AD66004C9751 /* Helper.swift */; };
+		84404DD32A20AD66004C9751 /* AlamofireManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84404DCD2A20AD66004C9751 /* AlamofireManger.swift */; };
+		84404DD42A20AD66004C9751 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84404DCE2A20AD66004C9751 /* LocationManager.swift */; };
 		870D150DB7C67EC70D16742FC6AB209C /* GCLocationPODS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB5FB1C66AD99D91053D962DC498B0E /* GCLocationPODS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F99E901E2AF94C0486802B82D00E791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C64F747297F3D35F50C7095441301DDA /* Pods-GCLocationPODS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC3D4B0E850C6788A4DF0A97A81BA /* Pods-GCLocationPODS_Tests-dummy.m */; };
@@ -53,6 +59,12 @@
 		754B48F27496097F31FBFA24F4C0BDE9 /* Pods-GCLocationPODS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCLocationPODS_Example.modulemap"; sourceTree = "<group>"; };
 		77356BA5917A4019AE1D95C42451E285 /* Pods-GCLocationPODS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCLocationPODS_Tests.modulemap"; sourceTree = "<group>"; };
 		7C05E8A7D18A24BB068977CD735B7E38 /* Pods-GCLocationPODS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GCLocationPODS_Example"; path = Pods_GCLocationPODS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84404DC92A20AD66004C9751 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		84404DCA2A20AD66004C9751 /* GCLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCLocation.swift; sourceTree = "<group>"; };
+		84404DCB2A20AD66004C9751 /* Geohash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geohash.swift; sourceTree = "<group>"; };
+		84404DCC2A20AD66004C9751 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		84404DCD2A20AD66004C9751 /* AlamofireManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManger.swift; sourceTree = "<group>"; };
+		84404DCE2A20AD66004C9751 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		85BDC3D4B0E850C6788A4DF0A97A81BA /* Pods-GCLocationPODS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCLocationPODS_Tests-dummy.m"; sourceTree = "<group>"; };
 		87B92A3CDE8D03D048CB139991D7D85B /* GCLocationPODS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCLocationPODS-Info.plist"; sourceTree = "<group>"; };
 		8CB5FB1C66AD99D91053D962DC498B0E /* GCLocationPODS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCLocationPODS-umbrella.h"; sourceTree = "<group>"; };
@@ -215,6 +227,12 @@
 		F275F2DA5699D8206B8935C519818575 /* GCLocationPODS */ = {
 			isa = PBXGroup;
 			children = (
+				84404DCD2A20AD66004C9751 /* AlamofireManger.swift */,
+				84404DC92A20AD66004C9751 /* CoreDataStack.swift */,
+				84404DCA2A20AD66004C9751 /* GCLocation.swift */,
+				84404DCB2A20AD66004C9751 /* Geohash.swift */,
+				84404DCC2A20AD66004C9751 /* Helper.swift */,
+				84404DCE2A20AD66004C9751 /* LocationManager.swift */,
 				143DC0E7732F222EF898131BE6DDB4F4 /* ReplaceMe.swift */,
 				DA96BB5D24A4D7674FCC56D9341F3D34 /* Pod */,
 				95DE46FD4D25B65C259403017B2AEEEB /* Support Files */,
@@ -367,8 +385,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84404DD32A20AD66004C9751 /* AlamofireManger.swift in Sources */,
+				84404DCF2A20AD66004C9751 /* CoreDataStack.swift in Sources */,
 				03AFE6483A2B90BA3498412ACCD94C08 /* GCLocationPODS-dummy.m in Sources */,
+				84404DD12A20AD66004C9751 /* Geohash.swift in Sources */,
+				84404DD42A20AD66004C9751 /* LocationManager.swift in Sources */,
+				84404DD02A20AD66004C9751 /* GCLocation.swift in Sources */,
 				E1ACCBD8A31B3E8DCB2A08D3147B66D5 /* ReplaceMe.swift in Sources */,
+				84404DD22A20AD66004C9751 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
